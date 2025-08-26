@@ -1,0 +1,10 @@
+let cor = prompt("Qual é a cor");
+if(cor === "Azul"){
+    console.log("cor fria");
+}else if(cor === "vermelha"){
+    console.log("cor quente")
+}else if(cor === "verde"){
+    console.log("cor natural");
+}else{
+    console.log("cor invalida")
+}
